@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h3>Escreva seu texto</h3>
+    <textarea  id="textoDigitado" cols="30" rows="10"></textarea>
+    <div id="changeOptions">
+        <h5>Escreva a palavra que voce que substituir</h5>
+    <input type="text" id="buscarPalavra">
+        <h5>Escreva a palavra que você quer que substitua a palavra anterior</h5>
+    <input type="text" id="susbtituirPalavra">
+        <button type="button" id="trocar">Trocar apenas uma palavra</button>
+        <button type="button" id="trocarTodos">Trocar todas as palavras</button>
+    </div>
+
+    <p>Quantidade de palavras: <span id="numPalavras">0</span> </p>
+    <p>Quantidade de caracteres: <span id="numCaracteres">0</span></p>
+    
+</main>
+    
+    <script src="./js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="./js/script.replace.js"></script>
+</body>
+</html>
