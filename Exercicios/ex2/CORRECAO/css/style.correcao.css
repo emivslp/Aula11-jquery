@@ -1,0 +1,11 @@
+.temaClaro{
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+.temaEscuro{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}

@@ -1,0 +1,11 @@
+AULA 10 - JQUERY - css
+
+.temaDark{
+    background-color: cadetblue;
+    transition: 1s;
+}
+
+.temaLight{
+    background-color: lightblue;
+    transition: 1s;
+}
